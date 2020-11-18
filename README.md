@@ -1,4 +1,4 @@
-#Suis-je une salope ?
+# Suis-je une salope ?
 SUS is a website using AI to do face detection and facial recognition. The website is in React.js and the facial recognition is done using the library face-api.js.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
