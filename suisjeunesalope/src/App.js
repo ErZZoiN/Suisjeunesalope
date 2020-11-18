@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import 'react';
+// import * as canvas from 'canvas';
+// import * as faceapi from 'face-api.js';
+// import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// const App = (props) => {
 
-export default App;
+//   const [Canvas, setCanvas] = React.useState();
+//   const [Image, setImage] = React.useState();
+//   const [ImageData, setImageData] = React.useState();
+
+
+//   React.useEffect(() => {
+//     setCanvas(canvas.Canvas);
+//     setImage(canvas.Image);
+//     setImageData(canvas.ImageData);
+
+//     faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
+
+//     let faceData = await fetch(`/facedata/salope.json`).then(r => r.json());
+//     await faceapi.loadFaceRecognitionModel('');
+
+//     labeledFaceDescriptors = faceData.map(desc => {
+//       let arr = desc.faceDescriptors.map(fd => {
+//         return new Float32Array([...Object.values(fd)]); 
+//       });
+//       return new faceapi.LabeledFaceDescriptors(desc.label, arr);
+//     });
+
+//     console.log(labeledFaceDescriptors[0]);
+
+//     ready = true;
+
+//   }, [])
+
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Testez une image :
+//         </p>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
